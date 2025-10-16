@@ -147,7 +147,7 @@ function App() {
                 <img src={disertanteImg} alt="Dr. Francisco Javier Ortuño Guerrero" />
               </div>
               <div className="disertante-info">
-                <h3>Lic. Pablo Soares de Lima</h3>
+                <h3>Lic. Pablo Martínez Soares de Lima</h3>
                 <p className="cargo">Perito Psicólogo</p>
                 <p className="especialidad">Psicólogo Forense Perito Psicólogo de Parte</p>
                 <p className="ubicacion">Buenos Aires, Provincia de Buenos Aires, Argentina</p>
