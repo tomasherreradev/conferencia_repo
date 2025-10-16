@@ -169,7 +169,7 @@ function App() {
         <div className="container">
           <h2>Ubicación del Evento</h2>
           <div className="contact-info">
-            <p><i className="fas fa-map-marker-alt"></i> <span>Teatro María Belén Brizuela</span></p>
+            <p><i className="fas fa-map-marker-alt"></i> <span>Centro Cultural María Belén Brizuela</span></p>
             {/* <p><i className="fas fa-map-pin"></i> <span>Ver en Maps</span></p> */}
           </div>
           <div className="map-container">
@@ -181,7 +181,7 @@ function App() {
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación del evento - Teatro María Belén Brizuela">
+              title="Ubicación del evento - Centro Cultural María Belén Brizuela ">
             </iframe>
             <p style={{textAlign: 'center', marginTop: '1rem'}}>
               <a 
