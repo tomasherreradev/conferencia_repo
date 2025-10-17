@@ -114,7 +114,7 @@ function App() {
       <header className="hero" style={{ backgroundImage: `url(${backgroundImg})` }}>
         <div className="hero-overlay">
           <div className="container">
-            <h1>Conferencia Judicial</h1>
+            <h1 className="top-drop-animation">Conferencia Judicial</h1>
             <h2>Por especialista en Psicología Jurídica y Forense</h2>
             <p className="date-location">6 de Noviembre 2025 | 18:00 Hrs | Teatro María Belén Brizuela</p>
             <a href="https://forms.gle/aUTDtp7TpAtYjpNe8" target="_blank" className="cta-button">Inscríbete Ahora</a>
@@ -157,6 +157,20 @@ function App() {
                   <a href="https://www.linkedin.com/in/pablo-mart%C3%ADnez-soares-de-lima-50127424/?originalSubdomain=ar" className="social-icon">IN</a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
+
+      <AnimatedSection className="about-section">
+        <div className="container">
+          <h2>Conoce Más</h2>
+          <div className="about-content">
+            <div className="about-text">
+              {/* embed youtube video */}
+              <iframe width="100%" height="450" src="https://www.youtube.com/embed/Fj7F2E63zOY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <p>Experto en Psicología del Testimonio y Perfilación Criminal y autor del libro "Actuación Profesional del Perito Psicólogo de Parte"</p>
             </div>
           </div>
         </div>
@@ -206,9 +220,6 @@ function App() {
               <p>6 de Noviembre 2025</p>
             </div>
             <div className="footer-links">
-              {/* <a href="#">Términos y Condiciones</a>
-              <a href="#">Política de Privacidad</a>
-              <a href="#">Contacto</a> */}
             </div>
           </div>
           <div className="footer-bottom">
